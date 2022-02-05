@@ -1,0 +1,72 @@
+.mensaje_ganar{
+    color: green;
+    font-family: Inter;
+    font-size: 50PX;
+    text-align: center;
+}
+
+.mensaje_perder{
+    color: red;
+    font-family: Inter;
+    font-size: 50PX;
+    text-align: center;
+}
+
+
+
+#resultado{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    color: blue;
+    margin-left: 40%;
+    margin-right: 20%;
+    margin-top:23%
+}
+
+#historial{
+
+   
+    margin-top: 10%;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-family: Inter;
+    text-align: center;
+    margin-left: 300px;
+   
+    
+
+}
+
+
+
+
+
+input{
+    margin-right: 5%;
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    text-align: center;
+    float: right;
+    
+
+}
+
+button{
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    padding: 10px;
+    margin-top: 1%;
+    margin-left: 4%;
+    border-radius: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    float: left;
+}

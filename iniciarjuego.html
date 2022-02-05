@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./imagenes/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugar Ahorcado </title>
+</head>
+<body>
+        
+    <div  class="mensaje_ganar "></div>
+    <div class="mensaje_perder"></div>
+  
+    <button id="btn-recargar">jugar de  nuevo</button>
+    <input id="letra" type="text" placeholder="Ingrese letra mayúscula - ENTER" maxlength="1"> 
+    
+    
+   
+    <div  class="guiones" id="resultado"  style="text-align: left;"></div>
+    <div id="historial"></div>
+   
+      
+    
+    
+    
+    
+     <!-- musetra historial de  las letras  -->
+
+    
+    <canvas  id="ahorcado" width="1200" height="200"></canvas>
+    <script type="text/javascript" src="./js/recargar.js"></script>
+    <script   id="canvas" type="text/javascript" src="./js/canvas.js"></script>
+    <script type="text/javascript" src="./js/ahorcado.js"></script>
+    
+</body>
+</html>

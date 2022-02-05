@@ -1,0 +1,139 @@
+*{
+  background-color: #F3F5FC;
+}
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 100px;;
+  border-radius: 0.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+#agregar-palabra{
+  margin-right: 1%;
+  margin-left:30% ;
+
+}
+#iniciar-juego{
+  text-decoration: none;
+  margin-left: 130px;
+  padding-left:3%;
+  padding-right: 2.2%;
+  
+
+ 
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 40%;
+  height: 80px;
+  margin-left: auto;
+  margin-top: 150px;
+  margin-right: auto;
+}
+
+
+
+li{
+  list-style: none;
+  margin-left: 41%;
+  margin-right: 40%;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400px;
+  letter-spacing: 0em;
+
+
+}
+
+.mensaje-correcto{
+  color: green;
+}
+
+.mensaje-incorrecto{
+  color: red;
+}
+
+
+.logo-oracle{
+  height: 50px;
+  width: 159x;
+  top: 10px;
+  position: absolute;
+  right: 5%;
+  border-radius: 10px;
+  
+  }
+
+  .logo-alura{
+    height: 50px;
+    width: 31px;
+    top: 10px;
+    position: absolute;
+    left: 5%;
+    border-radius: 10px;
+    
+    }
+   
+    .frase{
+      text-align: center;
+      font-size: 50px;
+      font-family: "Roboto Mono","Courier New",monospace;
+    }
+    
+    
+    #frase-1{
+      color: #555D64;
+      margin-top: 100px;
+    }
+    
+    #frase-2{
+      color: #58A25E;
+      
+    }
+    
+    #frase-3{
+      color: #555D64;
+      text-align: center;
+      font-size: 17px;
+      font-family: 'Open Sans',Arial,sans-serif;
+    }  
+    footer{
+
+      margin-top: 100px;
+      margin-bottom:30px;
+      text-align: center;
+      font-weight: bold
+    }
+    
+    .repositorio{
+      padding-bottom:10px;
+      
+    }
+    
+    .msg{
+    
+      width: 1000px !important;
+    }
+    
+    #github{
+    
+      height: 50px;
+      border-radius: 60px;
+      margin-top: 15px;
+    }  
+    
+  
+  
+
+
